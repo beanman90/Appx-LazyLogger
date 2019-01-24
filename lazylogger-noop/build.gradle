@@ -25,6 +25,9 @@ android {
         }
     }
 
+    afterEvaluate {
+        generateReleaseBuildConfig.enabled = false
+    }
 }
 
 dependencies {
