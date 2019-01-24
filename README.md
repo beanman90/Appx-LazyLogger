@@ -8,8 +8,8 @@ Lazy Logger is open source for lazy android app developer, supports Release/Debu
 In your `build.gradle`
 ```groovy
 dependencies {
-    releaseImplementation 'com.github.beanman90.Appx-LazyLogger:lazylogger:1.0.0'
-    debugImplementation 'com.github.beanman90.Appx-LazyLogger:lazylogger-noop:1.0.0'
+    releaseImplementation 'com.github.beanman90.Appx-LazyLogger:lazylogger-noop:1.0.0'
+    debugImplementation 'com.github.beanman90.Appx-LazyLogger:lazylogger:1.0.0'
 }
 ```
 
