@@ -3,8 +3,19 @@ Lazy Logger is open source for lazy android app developer, supports Release/Debu
 
 # [Read more document here](https://github.com/JakeWharton/timber)
 
+Jitpack URL: https://jitpack.io/#beanman90/Appx-LazyLogger
+
 **Getting Started**
 ---
+In your project `build.gradle`
+```groovy
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
 In your `build.gradle`
 ```groovy
 dependencies {
