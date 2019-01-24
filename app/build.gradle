@@ -24,5 +24,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    implementation 'com.github.beanman90.Appx-LazyLogger:lazzylogger:1.0.0-rc'
+    releaseImplementation 'com.github.beanman90.Appx-LazyLogger:lazzylogger:1.0.0'
+    debugImplementation 'com.github.beanman90.Appx-LazyLogger:lazylogger-noop:1.0.0'
 }
