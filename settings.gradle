@@ -1,1 +1,1 @@
-include ':app', ':lazzylogger', ':lazylogger-noop'
+include ':app', ':lazylogger', ':lazylogger-noop'

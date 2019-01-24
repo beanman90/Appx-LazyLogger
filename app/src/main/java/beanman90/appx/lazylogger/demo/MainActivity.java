@@ -11,5 +11,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         LazyLogger.plant(new LazyLogger.DebugTree());
+        LazyLogger.i("Hello Lazy Logger");
     }
 }
